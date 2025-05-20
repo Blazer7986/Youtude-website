@@ -1,0 +1,310 @@
+.request {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: opacity 0.15;
+}
+/* 3a: Hover */
+.request:hover {
+    opacity: 0.7;
+}
+.amazon {
+    background-color: rgb(255, 216, 20);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.88;
+    transition: opacity 0.15;
+}
+/* 3b: Hover */
+.amazon:hover {
+    opacity: 1;
+}
+.github {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.15;
+}
+/* 3c: Hover */
+.github:hover {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+}
+.boot {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+    opacity: 0.88;
+    transition: opacity 0.15s;
+}
+/* 3d: Hover */
+.boot:hover {
+    opacity: 1;
+}
+.strap {
+    background-color: white;
+    color: grey;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+/* 3d: Hover */
+.strap:hover {
+    background-color: grey;
+    color: white;
+}
+.link {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.88;
+    transition: opacity 0.15s;
+}
+/* 3e: Hover */
+.link:hover {
+    opacity: 1;
+}
+.save {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border: solid 1px rgb(10, 102, 194);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.15s, border-width 0.15s,
+        padding-left 0.15, padding-right 0.15, padding-top 0.15,
+        padding-bottom 0.15;
+}
+/* 3e: Hover */
+.save:hover {
+    background-color: rgba(10, 102, 194, 0.1);
+    border-width: 2px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a {
+    color: rgb(0, 133, 133);
+    transition: color 0.15s;
+    margin-right: 5px;
+}
+/* 3f: Hover */
+a:hover {
+    color: orange;
+}
+.nike {
+    font-weight: bold;
+    font-size: 20px;
+}
+.cash {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 118, 0);
+}
+.cart {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-right: 8px;
+    cursor: pointer;
+    opacity: 0.88;
+    transition: opacity 0.15s;
+}
+/* 3f: Hover & Active */
+.cart:hover {
+    opacity: 1;
+}
+.cart:active {
+    opacity: 0.4;
+}
+.buy {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0.88;
+    transition: opacity 0.15s;
+}
+/* 3f: Hover & Active */
+.buy:hover {
+    opacity: 1;
+}
+.buy:active {
+    opacity: 0.4;
+}
+.back {
+    border: solid 1px black;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 10px;
+}
+.next {
+    border: solid 1px black;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+}
+.stretch {
+    border: none;
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: padding-left 0.7s, padding-right 0.7s, padding-top 0.7s,
+        padding-bottom 0.5s;
+}
+.stretch:hover {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.shadow {
+    border: none;
+    background-color: green;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.15s, padding-left 0.15s, padding-right 0.15s,
+        padding-top 0.15s, padding-bottom 0.15;
+}
+.shadow:hover {
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.shadow:active {
+    margin-top: 5px;
+    margin-left: 5px;
+    box-shadow: 0 0 0;
+}
+.one {
+    border: none;
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: padding-left 0.15s, padding-right 0.15s, margin-left 0.15s,
+        margin-right 0.15s;
+}
+.one:hover {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.two {
+    border: none;
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: padding-left 0.15s, padding-right 0.15s, margin-left 0.15s,
+        margin-right 0.15s;
+}
+.two:hover {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.three {
+    border: none;
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: padding-left 0.15s, padding-right 0.15s, margin-left 0.15s,
+        margin-right 0.15s;
+}
+.three:hover {
+    margin-left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.number {
+    color: purple;
+}

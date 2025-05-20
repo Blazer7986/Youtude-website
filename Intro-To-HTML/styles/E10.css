@@ -1,0 +1,158 @@
+body {
+    padding-bottom: 500px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cat-container {
+    border: none;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 15px;
+}
+.cat-photo {
+    width: 100px;
+    height: 100px;
+}
+.cat-info {
+    flex: 1;
+}
+.cat-button {
+    width: 100px;
+}
+.img-adj {
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cat-name {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 35px;
+}
+.cat-type, .fame {
+    color: gray;
+    line-height: 30px;
+}
+.cat-type {
+    font-size: 24px;
+}
+.fame {
+    font-size: 23px;
+}
+.follow {
+    background-color: rgb(78, 137, 255);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 24px;
+}
+
+
+.space {
+    margin-bottom: 100px;
+}
+.youtude-video {
+    height: 140px;
+    width: 525px;
+}
+.video-image {
+    width: 220px;
+    height: 130px;
+    padding: 10px;
+}
+.video-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.video-info {
+    height: 200px;
+    width: 270px;
+    margin-top: 22px;
+}
+.video-info, .video-image {
+    display: inline-block;
+    vertical-align: top;
+}
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    line-height: 23px;
+}
+.video-author {
+    margin-bottom: 4px;
+}
+.video-author, .video-stats {
+    color: gray;
+    font-size: 15px;
+}
+
+.cat-grid {
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    column-gap: 20px;
+}
+.cat-preview {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border: none;
+    padding-bottom: 10px;
+}
+.cat-profile {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    text-align: center;
+}
+.cat-des {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.narrow-des {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    margin-bottom: 10px;
+}
+.f-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.friends {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.add {
+    background-color: rgb(0, 115, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
